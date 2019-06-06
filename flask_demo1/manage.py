@@ -31,5 +31,5 @@ if __name__ == '__main__':
     # db.session.add_all([us1, us2, us3, us4, us5, us6, us7, us8, us9, us10])
     # db.session.commit()
 
-    manage.run()
-    # app.run(debug=True)
+    # manage.run()
+    app.run(debug=True)
